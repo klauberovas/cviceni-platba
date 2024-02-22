@@ -47,19 +47,19 @@ body {
 }
 
 .icon-mastercard {
-  background-image: url('/img/master-card.png');
+  background-image: url('img/master-card.png');
 }
 
 .icon-amex {
-  background-image: url('/img/amex.png');
+  background-image: url('img/amex.png');
 }
 
 .icon-discover {
-  background-image: url('/img/discover.png');
+  background-image: url('img/discover.png');
 }
 
 .icon-diners {
-  background-image: url('/img/diners.png');
+  background-image: url('img/diners.png');
 }
 
 .active {

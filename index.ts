@@ -39,9 +39,9 @@ document
   .querySelector('.card-input')
   .addEventListener('input', (e: Event): void => {
     const inputElm = e.target as HTMLInputElement;
-    const filteredCardNumber = formatCardNumber(inputElm.value);
+    const filteredCardNumber: string = formatCardNumber(inputElm.value);
     inputElm.value = filteredCardNumber;
-    const typeCreditCard = detectCreditCard(inputElm.value);
+    const typeCreditCard: string = detectCreditCard(inputElm.value);
 
     //přidání třídy
     if (typeCreditCard === 'mastercard') {
